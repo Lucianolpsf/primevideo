@@ -9,12 +9,14 @@
 #filmes-series article{
     background-image: linear-gradient(to right, var(--preto)85%, transparent);
     width: 50%;
+    height: 42em;
     color: var(--branco);
     font-family: 'amazon ember light';
     padding: 50px 5%;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1.5em;
 }
 
