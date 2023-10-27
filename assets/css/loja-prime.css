@@ -10,14 +10,14 @@
     background-image: linear-gradient(to left, var(--preto)85%, transparent);
     width: 50%;
     padding-right: 4em;
-    padding-left: 3em;
+    padding-left: 8em;
     color: var(--branco);
     font-family: 'amazon ember light';
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.5em;
+    gap: 3em;
 }
 
 #loja-prime p {

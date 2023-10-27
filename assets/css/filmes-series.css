@@ -1,11 +1,9 @@
 #filmes-series{
-    height: 40em;
+    /* height: 40em; */
     background-image: url(../images/background/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
     background-size: cover;
     display: flex;
-    justify-content: start;
-    padding-left: 3.5em;
-    
+    /* padding-left: 3.5em; */
 }
 
 #filmes-series article{
@@ -13,10 +11,10 @@
     width: 50%;
     color: var(--branco);
     font-family: 'amazon ember light';
+    padding: 50px 5%;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 1.5em;
 }
 
@@ -27,13 +25,13 @@
 
 .filmes-button {
     width: 10em;
+    margin: 2em 0;
 }
 
 .linha-ou {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: .5em; */
     width: 16em;
     padding: 0.5em 0;
 }

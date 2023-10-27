@@ -14,7 +14,8 @@
     flex-direction: column;
     gap: 1em;
 
-    width: 19em;
+    width: 34em;
+    text-align: center;
 }
 
 #dispositivos article img{

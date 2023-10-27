@@ -25,10 +25,12 @@
 #canais img {
    max-width: 16em;
    height: 11em;
+   transition: .15s;
 }
 
 #canais img:hover {
     box-shadow: 0 0 10px 1px var(--preto);
+    cursor: pointer;
  }
 
 .image-canais{

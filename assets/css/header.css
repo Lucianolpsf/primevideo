@@ -4,11 +4,12 @@
   'wght' 400,
   'GRAD' 0,
   'opsz' 24;
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 header{
     width: 100%;
+    height: 3.5em;
     background-color: var(--header);
     display: flex;
     justify-content: center;
@@ -25,7 +26,7 @@ header > nav {
 }
 
 header img {
-    width: 6.5em;
+    height: 1.5em;
 }
 header ul {
     display: flex;
@@ -34,14 +35,18 @@ header ul {
 header ul li {
     display: flex;
     align-items: center;
-    padding: 0 .6em;
-    font-weight: 600;
-    font-size: 1em;
+    padding: 0 1em;
+    font-weight: 500;
+    font-size: 1.1em;
 }
 
 header ul li:hover{
     cursor: pointer;
     background-color: var(--nav-hover);
+}
+
+.arrow{
+    font-size: 1.8em;
 }
 
 header ul li .arrow {
