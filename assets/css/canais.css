@@ -1,0 +1,38 @@
+#canais {
+    display: flex;
+    padding: 1em 0;
+}
+
+#canais article{
+    max-width: 50%;
+}
+
+.textos {
+    padding: 3.5em;
+}
+
+.textos  h1 {
+    font-family: 'amazon ember light';
+    margin-bottom: 1em;
+
+}
+
+.textos p{
+    font-family: 'amazon ember light';
+    font-size: 1.5em;
+}
+
+#canais img {
+   max-width: 16em;
+   height: 11em;
+}
+
+#canais img:hover {
+    box-shadow: 0 0 10px 1px var(--preto);
+ }
+
+.image-canais{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}

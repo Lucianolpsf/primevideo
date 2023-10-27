@@ -1,0 +1,58 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 2.5em;
+}
+
+header{
+    width: 100%;
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
+}
+
+header > nav {
+    min-width: 60%;
+    padding: .2em;
+    color: var(--font-header);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    width: 6.5em;
+}
+header ul {
+    display: flex;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+    padding: 0 .6em;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+header ul li:hover{
+    cursor: pointer;
+    background-color: var(--nav-hover);
+}
+
+header ul li .arrow {
+    transition: .3s;
+}
+
+header ul li:hover .arrow{
+    transform: rotate(180deg);
+}
+
+#image-user{
+    width: 2em;
+    height: 2em;
+}

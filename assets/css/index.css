@@ -1,0 +1,47 @@
+@import url(./header.css);
+@import url(./filmes-series.css);
+@import url(./loja-prime.css);
+@import url(./dispositivos.css);
+@import url(./footer.css);
+@import url(./button.css);
+@import url(./canais.css);
+
+@font-face {
+    font-family: 'amazon ember light';
+    src: url(../fonts/AmazonEmber_Lt.woff);
+}
+@font-face {
+    font-family: 'amazon ember bold';
+    src: url(../fonts/AmazonEmber_Rg.woff);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'amazon ember bold';
+    font-size: 1em;
+}
+
+:root{
+    
+ --footer:   #222222;
+ --azul-escuro: #086cb4 ;
+ --azul-claro: #0f79af;
+ --branco:   #ffffff;
+ --preto:   #000000;
+ --header:   #00050d;
+ --font-header:#aaaaaa;
+ --font-footer:#949494;
+ --nav-hover:#191e25;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.9em;
+    font-weight: 500;
+}

@@ -1,0 +1,53 @@
+#filmes-series{
+    height: 40em;
+    background-image: url(../images/background/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    padding-left: 3.5em;
+    
+}
+
+#filmes-series article{
+    background-image: linear-gradient(to right, var(--preto)85%, transparent);
+    width: 50%;
+    color: var(--branco);
+    font-family: 'amazon ember light';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+#filmes-series p {
+    font-size: 1.2em;
+    font-family: 'amazon ember light';
+    margin-bottom: 2em;
+}
+
+.filmes-button {
+    width: 10em;
+}
+
+.linha-ou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: .5em; */
+    width: 16em;
+    padding: 0.5em 0;
+}
+.linha-ou p{
+    display: inline-block;
+    margin: 0.5em;
+}
+.linha-ou hr {
+    width: 100%;
+    height: 1px;
+}
+
+#filmes-series article p small{
+    font-size: .9em;
+    font-family: 'amazon ember light';
+}

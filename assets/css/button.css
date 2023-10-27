@@ -1,0 +1,10 @@
+button {
+    font-size: 1em;
+    color: var(--branco);
+    background-image: linear-gradient(to right,var(--azul-claro)90%, var(--azul-escuro)) ;
+    border: none;
+    border-radius: 2px;
+    padding: 1em;
+    width: 16em;
+    cursor: pointer;
+}

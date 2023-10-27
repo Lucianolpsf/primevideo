@@ -1,0 +1,26 @@
+#loja-prime{
+    height: 40em;
+    background-image: url(../images/background/MLP_BG_left_1440x675.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+}
+
+#loja-prime article{
+    background-image: linear-gradient(to left, var(--preto)85%, transparent);
+    width: 50%;
+    padding-right: 4em;
+    padding-left: 3em;
+    color: var(--branco);
+    font-family: 'amazon ember light';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+#loja-prime p {
+    font-size: 1.2em;
+    font-family: 'amazon ember light';
+}
