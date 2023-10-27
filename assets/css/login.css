@@ -1,0 +1,59 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+@font-face {
+    font-family: 'amazon ember light';
+    src: url(../fonts/AmazonEmber_Lt.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'amazon ember light';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+header img {
+    margin: 1em;
+}
+
+h1 {
+    margin: .5em 0;
+    font-size:28px ;
+    font-weight: 200;
+}
+
+form, footer {
+    padding: 20px 26px;
+}
+
+form , button {
+    border: 1px solid #80808064;
+    border-radius: 0.5em;
+}
+
+label {
+    font-weight: 600;
+    font-size: 13px;
+}
+input {
+    width: 100%;
+}
+
+hr ,form, footer {
+    max-width: 21.75em;
+}
+
+button {
+    width: 100%;
+    padding: .2em;
+}
+
