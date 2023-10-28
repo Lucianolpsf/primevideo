@@ -1,5 +1,5 @@
 @import url(./header.css);
-@import url(./footer.css);
+/* @import url(./footer.css); */
 
 @font-face {
     font-family: 'amazon ember light';
@@ -52,15 +52,14 @@ label {
 }
 input {
     width: 100%;
-    height: 2em;
+    height: 2.5em;
     margin-bottom: 1em;
     margin-top: .2em;
 }
 
 button {
     width: 100%;
-    height: 2em;
-    margin-bottom: 2em;
+    height: 2.5em;
     box-shadow:0 1px 2px #80808064;
     background-color: #ffffff;
     transition: .2s;
@@ -68,13 +67,22 @@ button {
 
 button:hover{
     background-color: #f6f6f6;
+    cursor: pointer;
 }
 
 p, a {
     font-size: 12px;
 }
+a{
+    color: #0068c6;
+    text-decoration: none;
+}
 
-hr ,form, footer {
+a:hover{
+    color: #c45500;
+}
+
+form, footer {
     max-width: 21.75em;
 }
 
@@ -83,15 +91,59 @@ input[type="submit"] {
     padding: .2em;
     border: none;
     border-radius: .5em;
+    background-color: #ffd814;
+    transition: background-color .2s;
 }
 
-summary {
-    margin: 1.5em 0;
+input[type="submit"]:hover{
+   background-color: #f7ca00;
+}
+
+input[type="text"], input[type="password"]{
+    border: 1px solid #111111;
+    border-radius: 5px;
+    height: 2.5em;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    outline: 3px solid #c8f3fa;
+    background-color: #f7feff;
+}
+
+summary { 
+    margin-top: 1.5em;
+}
+
+summary::marker{
+    font-size: .7em;
+    color: gray;
+}
+
+details ul {
+    list-style: none;
+}
+
+details ul li {
+    margin: .5em 0;
+}
+
+details summary a,
+details ul li a{
+    font-family: 'amazon ember light';
     font-size: 13px;
+    font-weight: 600;
+}
+
+details ul li a {
+    padding-left: 17px;
+};
+
+main button a {
+
 }
 
 hr{
-    border: 1px solid #80808064
+    border: 1px solid #80808043
 }
 
 .novo {
@@ -101,21 +153,39 @@ hr{
 
 .novo hr {
     width: 100%;
-    ;
 }
 
 .novo p {
-    margin: 2em 1em 1em 1em;
-    min-width: 8em;
-
+    margin: 1em 1em 1em 1em;
+    min-width: 8.2em;
+    color: gray;
 }
 
 footer {
     padding: 0;
     min-width: 100%;
     font-size: 11px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+
+    height: 9.8em;
+}
+
+footer hr {
+    width: 70%;
+    margin-bottom: 1em;
+    border-radius: 50%;
+    box-shadow: 0 4px 9px #80808064;
 }
 
 footer ul {
+    display: flex;
+    gap: 1em;
+
+    list-style: none;
     margin-bottom: 1em;
 }
